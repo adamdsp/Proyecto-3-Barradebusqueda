@@ -1,0 +1,72 @@
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    /* Soporte para todos los navegadores WebKit. */
+    -webkit-font-smoothing: antialiased;
+
+    /* Soporte para Safari y Chrome. */
+    text-rendering: optimizeLegibility;
+  
+    /* Soporte para Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+  
+    /* Soporte para IE. */
+    font-feature-settings: 'liga';
+  }
+body{
+    font-family: sans-serif;
+  background-image: url(abstract-white-and-gray-wavy-shapes-background-with-wavy-lines-vector.jpg);
+}
+.search-bar{
+    border: solid 1px #ccc;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px 10px;
+    margin: 100px auto;
+}
+.search-bar:focus-within{
+    border: solid 2px #ff0000;
+    box-shadow: 0px 2px 5px rgba(0, 0, 255, 0.2)
+}
+.search-bar input{
+    border: none;
+    outline: none;
+    pad: 10px;
+    font-size: 18px;
+    flex: auto;
+    
+}
+.logobrave{
+    width: 450px;
+    height: 175px;
+    display: block;
+    margin-left: 475px;
+    margin-bottom: 50px;
+margin-top: 50px;
+     display: flex;
+   
+ }
+.search-bar .actions{
+    display: flex;
+    gap: 5px;
+}
+.search-bar .actions button{
+    border:  none;
+   outline:  none;
+   background: none;
+   cursor: pointer;
+   color: #ffffff;
+}
+.search-bar .actions button:hover{
+    color: #2979e2;
+}
